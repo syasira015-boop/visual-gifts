@@ -44,7 +44,7 @@ function generateLink() {
   const msg = messageBox.value;
   if (!msg) return alert("Write something first 💔");
 
-  const base = "https://yourusername.github.io/visual-gift/receiver.html";
+  const base = "https://syasira015-boop.github.io/visual-gifts/receiver.html";
 
   const link = `${base}?msg=${encodeURIComponent(msg)}`;
 
